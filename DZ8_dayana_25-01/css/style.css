@@ -1,0 +1,29 @@
+canvas {
+    display: block;
+    margin: 0 auto;
+}
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.modal {
+    width: 500px;
+    height: 500px;
+    position: absolute;
+    background: black;
+    border-radius: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: greenyellow;
+}
+
+.restartBtn {
+    background-color: greenyellow;
+    color: black;
+    border-radius: 12px;
+    width: 80px;
+    height: 80px;
+}
